@@ -6,12 +6,6 @@ import {
   faCartShopping,
 } from "@fortawesome/free-solid-svg-icons";
 
-const navigation = [
-  { name: "Dashboard", href: "#", current: true },
-  { name: "Team", href: "#", current: false },
-  { name: "Projects", href: "#", current: false },
-  { name: "Calendar", href: "#", current: false },
-];
 function Navbar({ onAction, selectedProduct }) {
  
   return (
